@@ -1,0 +1,283 @@
+
+.cuerpo{
+	
+	background:linear-gradient(#FFE082, #FF8F00);
+	font-family: 'Noto Serif Georgian', serif;
+}
+
+
+.titulo{
+	font-size: 60px;
+	color: red;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	transition: 1s all;
+}
+.refran{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.imagenPrincipal{
+	width: 940px;
+	height: 400px;
+	margin-left: 300px;
+    box-shadow: -5px 5px 20px black;
+	transition: 1s all;
+
+}
+.imagenPrincipal:hover{
+	transform: scale(1.1);
+
+}
+
+.ubicacion{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	transition: 1s all;
+
+}
+.ubicacion:hover{
+	color: #2196F3;
+	font-size: 50px;
+}
+.titulosH2{
+	text-align: center;
+	font-size: 40px;
+}
+.titulosH3{
+	text-align: center;
+	font-size: 40px;
+}
+.titulosH3:before{
+	content: "♟";
+}
+
+.seccion{
+	font-size: 20px;
+	font-weight: bold;	
+	margin-right: 200px;
+	margin-left: 170px;
+}
+.imagenInicial{
+	width: 300px;
+	height: 300px;
+	margin-left: 150px;
+	float: left;
+	padding: 20px;
+	box-shadow: -5px 5px 10px black;
+	transition: 1s all;
+}
+
+.imagenInicial:hover{
+	transform: scale(1.1);
+}
+.division-2{
+	margin-top: 100px;
+}
+
+.imagenPeon{
+	width: 300px;
+	height: 300px;
+	margin-left: 150px;
+	float: left;
+	padding: 20px;
+	box-shadow: -5px 5px 10px black;
+	transition: 1s all;
+}
+.imagenPeon:hover{
+	transform: scale(1.1);
+}
+.division-3{
+	margin-top: 100px;
+}
+.reynas{	
+	text-align: center;
+	font-size: 40px;
+}
+.reynas::before{
+	content: "♛";
+}
+
+.imagenReyna{
+	width: 300px;
+	height: 300px;
+	margin-left: 150px;
+	float: left;	
+	padding: 20px;
+	box-shadow: -5px 5px 10px black;
+	transition: 1s all;
+}
+
+.imagenReyna:hover{
+	transform: scale(1.1);
+}
+.division-4{
+	margin-top: 100px;
+}
+.caballos{
+	text-align: center;
+	font-size: 40px;	
+}
+.caballos:before{
+	content: "♞";
+}
+.imagenCaballo{
+	width: 300px;
+	height: 300px;
+	margin-left: 150px;
+	float: left;	
+	padding: 20px;
+	box-shadow: -5px 5px 10px black;
+	transition: 1s all;
+}
+.imagenCaballo:hover{
+	transform: scale(1.1);
+}
+
+.division-5{
+	margin-top: 100px;
+}
+
+.alfiles{
+	text-align: center;
+	font-size: 40px;	
+}
+.alfiles:before{
+	content: "♝";
+}
+
+.imagenAlfil{
+	width: 300px;
+	height: 300px;
+	margin-left: 150px;	
+	float: left;	
+	padding: 20px;
+	box-shadow: -5px 5px 10px black;
+	transition: 1s all;	
+}
+
+.imagenAlfil:hover{
+	transform: scale(1.1);
+}
+.division-6{
+	margin-top: 100px;
+}
+
+.torres{
+	text-align: center;
+	font-size: 40px;
+}
+.torres::before{
+	content: "♜";
+}
+
+.imagenTorre{
+	width: 300px;
+	height: 300px;
+	margin-left: 150px;
+	float: left;	
+	padding: 20px;
+	box-shadow: -5px 5px 10px black;	
+	transition: 1s all;
+}
+.imagenTorre:hover{
+	transform: scale(1.1);
+}
+.division-7{
+	margin-top: 100px;
+}
+
+.reyes{
+	text-align: center;
+	font-size: 40px;
+}
+.reyes::before{
+	content: "♚";
+}
+
+.imagenRey{
+	display: inline;
+	width: 300px;
+	height: 300px;
+	margin-left: 150px;
+	padding: 20px;
+	box-shadow: -5px 5px 5px 5px black;
+	transition: 1s all;
+}
+.imagenRey:hover{
+	transform: scale(1.1);
+}
+.seccion-2{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 170px;	
+	margin-right: 200px;
+}
+.navegar{
+	background-color: #FFE082;
+	width: 100%;
+	
+}
+
+.juegosH3{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 50px;
+	padding-top: 50px;
+}
+
+.parrafoH3 {
+	text-align: center;
+	font-size: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.liches{	
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	transition: 1s;		
+}
+.liches:hover{
+	transform: scale(1.2);
+}
+.noticias{
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.paginas{
+	font-size: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.video{
+	margin-left: 300px;
+	width: 940px;
+}
+
+.piedePagina{
+	box-sizing: border-box;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	box-shadow: 10px 10px 10px black;
+	margin: 30px ;
+	text-align: center;
+	background-color: darkorange;
+}
+.piedePagina p::before {
+content: "❋";
+}
+@media sreen and (max-width: 480px){
+	
+}

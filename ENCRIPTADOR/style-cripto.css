@@ -1,0 +1,110 @@
+
+
+.cuerpo{
+    background: #26C6DA;  
+      
+}
+.cuerpodiv{
+    width: 940px;    
+}
+
+.cuerpodiv li{
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    vertical-align: top; 
+}
+
+.imagen{
+    width: 50%;
+    margin-top: 100px;    
+}
+.escribir{
+    margin-left: 100px; 
+    margin-top: 100px;
+    
+}
+.imagendos{
+    margin-top: 60px;
+    margin-left: 100%;
+    width: 50%;  
+    background-image: url("imagen-cripto/foto.png");  
+    background-position: center;
+    background-size: 100%;
+}
+.copiar-dos{
+    margin-top: 60px;
+    margin-left: 100%;
+    width: 50%; 
+    padding: 5px 30px;  
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    font-size: 25px;
+
+}
+
+.escribir label{
+    width: 40%;
+    background-color: aliceblue;
+    font-size: 25px;    
+    border-width: 3px;
+    border-style: solid;
+    padding: 5px; 
+    border-radius: 10px;      
+}
+.textoarea{
+    margin-top: 40px;    
+    font-size: 15px;   
+}
+.botones{
+    margin: 50px 0 50px 100px;    
+}
+.cifrar{
+    padding: 5px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+.descifrar{
+    font-size: 20px;
+    padding: 5px 30px;
+    margin-left: 10px;
+    font-weight: bold;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+
+.final{
+    width: 100%;
+    background-color: black;
+    padding: 50px;
+}
+
+.final p{
+    text-align: center;
+    font-size: 20px;
+    color:greenyellow;
+}
+@media screen and (max-width: 480px){   
+    .cuerpodiv{
+        width: auto;
+    }    
+    .cuerpodiv li{
+        display:block;
+    }
+    .escribir label{
+        width: 40%;
+        
+    }
+    .copiardos{
+        width: auto;                
+    }
+    
+} 

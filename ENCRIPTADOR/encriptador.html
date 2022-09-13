@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Encriptador Alura</title>
+
+        <link rel="stylesheet" href="style-cripto.css">
+
+    </head>
+
+        <body class="cuerpo">
+            <main>
+
+                <div class="cuerpodiv">
+
+                    <li>
+                        <img class="imagen" src="imagen-cripto/asin2.png">
+
+                        <form class="escribir">
+
+                            <label for="mensaje">Escriba abajo su mensaje</label>
+                            <textarea cols="40" rows="3" class="textoarea" placeholder="Que quiere comunicar"></textarea>
+                            
+                        </form>   
+
+                    </li>
+                    <li>
+                        <textarea cols="10" rows="20"class="imagendos" ></textarea>                        
+                        <button class="copiar-dos" onclick="hacerCopia()">Copiar                       
+                        </button>
+                    </li>
+
+                </div>
+            </main>
+            
+            <main class="botones">
+
+                <button onclick="cifrar()" class="cifrar">Encriptar</button>
+                
+                <button onclick="descifrar()" class="descifrar" >Desencriptar</button>
+
+            </main>
+
+            <script src = "script-cripto.js"></script>
+
+        </body>
+        
+        <footer class="final">
+            <p>¡¡¡ Éste encriptador fue realizado con mucho esfuerzo !!!</p>
+            <p>andresraulvaras</p>
+            <p>¡¡¡ Dedicado a todo el equipo de Alura !!!</p>
+        </footer>   
+ 
+</html>
