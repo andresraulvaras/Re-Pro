@@ -1,0 +1,151 @@
+
+
+
+.cuerpo{
+    font-family: 'Mali', cursive;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image:linear-gradient(#ece2c6,#f5deb3);
+    
+}
+
+.imagen-0{
+    margin-left: 150px;    
+    width: 80%;
+    height: 500px;
+}
+.parrafo-0{
+    text-align: center;
+    font-size: 70px;  
+    color: #222222;      
+}
+.parrafo-1{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;    
+    color: #222222; 
+    text-shadow: 2px 2px 4px red;      
+}
+.formulario{
+    font-size:40px;
+    text-align: center;
+}
+.imagen-1{
+    box-sizing: border-box;
+    border-width: 8px;
+    border-style: solid;
+    border-color: black;
+    padding: 8px;
+}
+
+
+.hache-1{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    color: #222222;    
+}
+.parrafo-2{
+    margin-left: 150px;
+    margin-right: 150px;    
+    font-size: 20px;
+    color: #222222;
+    text-shadow: 2px 2px 4px red; 
+}
+.parrafo-2::before{
+    color: red;
+    content: "✱";
+}
+.imagen-2{
+    margin-left: 150px;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    border-width: 8px;
+    border-style: solid;
+    border-color: black;
+    padding: 8px;
+}
+.parrafo-3{
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #222222;
+    text-shadow: 2px 2px 4px red;
+}
+.piedePagina{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+	box-sizing: border-box;
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+	box-shadow: -10px -10px 15px black;	
+	text-align: center;    
+	background-image: linear-gradient(#f3b671, #da9342);
+}
+.piedePagina p{
+    color:#2f353b;    
+}
+.piedePagina p::before {
+    content: "❋";
+    }
+
+@media screen and (max-width: 480px){
+    .imagen-0{        
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        margin-left: 30px;
+    }
+    .parrafo-0{
+        font-size: 30px;
+    }
+    .parrafo-1{
+        margin: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    .parrafo-2{
+        font-size: 14px;
+        margin: auto;
+        margin-left: 50px;
+    }
+    .formulario p{
+        font-size: 20px;
+    }
+    .imagen-1{
+        width: 300px;
+        height: 160px;
+
+    }
+    .hache-1{
+        margin: auto;
+        font-size: 20px;
+        margin-left: 5px;
+        margin-right: 15px;
+    }
+    .parrafo-3{
+        margin: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    .imagen-2{
+        margin-top: 15px;
+        margin-left: 50px;
+        margin-right: 100px;
+       
+    }
+    .piedePagina{        
+        margin: auto;
+        margin-top: 15px;
+        margin-left:50px;
+    }
+    .piedePagina p{
+        font-size: 14px;
+    }
+    
+}
