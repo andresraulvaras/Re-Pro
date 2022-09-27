@@ -7,7 +7,7 @@ function adelante() {
     if(numero > 7) 
         numero = 1;
         var foto = document.getElementById("foto");
-        foto.src = "semitas/semita-" + numero + ".jpg";
+        foto.src = "semitas-imagen/semita-" + numero + ".jpg";
     
 }
 
@@ -16,6 +16,6 @@ function atras() {
     if(numero < 1) 
         numero = 7;
         var foto = document.getElementById("foto");
-        foto.src = "semitas/semita-" + numero + ".jpg";
+        foto.src = "semitas-imagen/semita-" + numero + ".jpg";
     
 }
