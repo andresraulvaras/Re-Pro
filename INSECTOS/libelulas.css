@@ -1,0 +1,143 @@
+
+.cuerpo{
+    background: #0e1e4e;
+}
+.encabezado{
+    height: 100px;
+    background: #100c08;      
+}
+.encabezado__titulo{
+    color: #f5f5f1;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flexContainer{
+    width: 100%;
+}
+.flexContainer__ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+    margin: 15px 0px;      
+}
+
+.ul__listas{
+    background:#a1c6ea;  
+    height: 450px; 
+    width: 23%;   
+    margin: 10px 0px 0px 0px;
+     
+}
+
+.nombre__titulo{
+    color:#Ff0000;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin: 0px 10px 10px 10px;
+    padding-top: 5px;
+}
+.nombre__cientifico{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;    
+    font-size: 0.7rem;
+    color: #222222;
+    margin-left: 10px;
+    height: 5%;
+}
+
+.nombre__nombre{
+
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 0.7rem;
+    height: 5%;    
+}
+
+.nombre__parrafo{
+    color:#222222;
+    margin-left: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    font-size: 1.1rem;
+    text-align: justify;
+    height: 20%;
+    margin: 10px 10px 10px 10px;
+}
+
+.nombre__bekko{
+    height: 45%;
+    background-image: url(./insectos/Bekko.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+.nombre__viuda{
+    height: 45%;
+    background-image: url(./insectos/luctuosa.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+.nombre__flameada{
+    height: 45%;
+    background-image: url(./insectos/saturata.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+.nombre__neon{
+    height: 45%;
+    background-image: url(./insectos/croecipennis.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+.nombre__arrebolada{
+    height: 45%;
+    background-image: url(./insectos/espinosa.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+.nombre__ocellata{
+    height: 45%;
+    background-image: url(./insectos/ocellata.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+.nombre__verdes{
+    height: 45%;
+    background-image: url(./insectos/zurcidora.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+.nombre__dama{
+    height: 45%;
+    background-image: url(./insectos/belladama.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.pieDePagina{
+    height: 150px;
+    background-color: #100c08; 
+}
+.pieDePagina__div{
+    padding: 10px;
+}
+.pieDePagina__parrafo{
+    color: #f5f5f1;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 0.4rem;
+}
