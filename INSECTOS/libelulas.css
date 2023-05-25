@@ -1,13 +1,26 @@
 
+:root {
+    --colorBody:#0e1e4e;          
+    --colorEncabezado:#100c08; 
+    --colorTitulo:#f5f5f1;
+    --colorListas:#a1c6ea;
+    --colorEncabezado__Titulo:#ff0000;
+    --colorCientifico:#222222;
+    --colorMedia960 :#d0d015;
+    --colorMedia769:#6d1a3d;
+    --colorMedia540:yellowgreen;
+    --colorMedia365:#a9a9a9;
+}
+
 .cuerpo{
-    background: #0e1e4e;
+    background:var(--colorBody);
 }
 .encabezado{
     height: 100px;
-    background: #100c08;      
+    background: var(--colorEncabezado);      
 }
 .encabezado__titulo{
-    color: #f5f5f1;
+    color:#ff0000;
     font-size: 50px;
     text-align: center;
     padding-top: 25px;
@@ -24,7 +37,7 @@
 }
 
 .ul__listas{
-    background:#a1c6ea;  
+    background:var(--colorListas);
     height: 450px; 
     width: 23%;   
     margin: 10px 0px 0px 0px;
@@ -32,9 +45,9 @@
 }
 
 .nombre__titulo{
-    color:#Ff0000;
+    color:var(--colorEncabezado__Titulo);
     text-align: center;
-    font-size: 1.5rem;
+    font-size:1.3rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     margin: 0px 10px 10px 10px;
@@ -42,10 +55,10 @@
 }
 .nombre__cientifico{
 
+    color: var(--colorCientifico);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;    
-    font-size: 0.7rem;
-    color: #222222;
+    font-size: 0.7rem;    
     margin-left: 10px;
     height: 5%;
 }
@@ -61,10 +74,10 @@
 }
 
 .nombre__parrafo{
-    color:#222222;
+    color:var(--colorCientifico);
     margin-left: 10px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
-    font-size: 1.1rem;
+    font: size 0.9rem;
     text-align: justify;
     height: 20%;
     margin: 10px 10px 10px 10px;
@@ -129,15 +142,165 @@
 
 .pieDePagina{
     height: 150px;
-    background-color: #100c08; 
+    background-color: var(--colorEncabezado); 
 }
 .pieDePagina__div{
     padding: 10px;
 }
 .pieDePagina__parrafo{
-    color: #f5f5f1;
+    color: var(--colorTitulo);
     font-size: 1.2rem;
     text-align: center;
     font-weight: bold;
     margin: 0.4rem;
+}
+@media screen and (max-width:960px) {
+
+    .cuerpo{
+        background-color:var(--colorMedia960);
+    }
+    .nombre__titulo{
+        font-size:0.9rem;
+    }
+    .nombre__parrafo{
+        font-size: 0.5rem;
+    }
+    .nombre__nombre{
+        font-size: 0.1rem;
+        font-weight: normal;
+    }
+    .flexContainer__ul{
+        display: flex;
+        flex-direction:row;
+        width: 100%;
+    }
+    .ul__listas{
+        width: 30%;
+    }    
+}
+
+@media screen and (max-width:769px) {
+
+ .cuerpo{
+        background-color:var(--colorMedia769);
+    }
+    .nombre__titulo{
+        
+    }        
+    .encabezado__titulo{
+        
+    }
+    .nombre__cientifico{
+       font-size: 1rem;
+       font-weight: normal;
+       text-transform:none;
+    }
+    .nombre__nombre{
+        font-size: 1rem;
+        font-weight: normal;
+        text-transform: none;
+        width: 95%;
+    }
+    .nombre__parrafo{
+        font-size: 0.5rem;
+    }
+    .pieDePagina__parrafo{
+        
+    }
+    .flexContainer{       
+        width: 100%;
+    }
+    .flexContainer__ul{
+        display: flex;
+        flex-wrap: wrap;        
+        margin: auto;
+    }
+    .ul__listas{      
+        width: 40%;  
+        margin: 1.5rem 0.2rem 1.5rem 0.2rem;   
+    }    
+}
+@media  screen and (max-width:540px) {
+    .cuerpo{
+        background-color:var(--colorMedia540);
+    }
+    .encabezado__titulo{
+        font-size: 2rem;
+    }
+    .flexContainer{
+        width: 100%;
+    }
+    .flexContainer__ul{
+        display: flex; 
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .ul__listas{                    
+        width:auto;
+    }
+    .nombre__titulo{
+        font-size: 1.2rem;
+    }
+    .nombre__cientifico{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .nombre__nombre{
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .pieDePagina__parrafo{
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media screen and (max-width: 365px) {
+
+.cuerpo{
+        background-color:var(--colorMedia365);
+    }
+    .encabezado__titulo{
+        font-size: 1.4rem;
+    }
+    .flexContainer{
+        width: 100%;
+    }
+    .flexContainer__ul{
+        display: flex; 
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .ul__listas{                    
+        width:auto;
+    }
+    .nombre__titulo{
+        font-size: 0.5rem;
+    }
+    .nombre__cientifico{
+        font-weight: normal;
+    }
+    .nombre__nombre{
+        font-size: 1rem;
+        font-weight: normal;
+        text-transform: none;
+    }
+    .nombre__parrafo{
+        font-size: 0.2rem;
+        width: 95%;
+    }
+
+    .pieDePagina__div{
+        padding: 0.2rem 0rem 0rem 0rem;
+    }
+    .pieDePagina__parrafo{
+        font-size: 0.2rem;
+        width: auto;
+        font-weight: normal;
+    }
+    
 }
