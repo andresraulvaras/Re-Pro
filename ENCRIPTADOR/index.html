@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Khand&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cripto.css"/>
+    <title>Encriptador</title>
+</head>
+
+<body class="body">   
+    <main class="cabezera">
+        <h3 class="cabezera_titulo">Encriptador usando codificación Base64</h3>        
+    </main>
+
+    <main class="main">
+        <div class="area_logo">
+            <h1 class="logo_texto">a</h1>
+        </div>
+        
+        <div class="area_textarea">
+            <div class="area_form">
+                <label form="area_form">Escribir Mensaje</label>
+                <textarea cols="25" rows="2" class="textarea" placeholder="Escriba Aquí su mensaje" id="campoOriginal"></textarea>
+                
+            </div>           
+        </div >
+
+        <div class="area_encriptar">
+            <div class="area_btnCifrar">
+                <button type="button"onclick="cifrar()" class="area_cifrar">Encriptar</button>
+                <p id="resultado"></p>
+            </div>  
+        </div>
+
+        <div class="area_desencriptar">
+            <div class="area_btnDescifrar">
+                <button type="button"onclick="descifrar()" class="area_descifrar">Desencriptar</button>
+                <p id="resultado"></p>
+            </div>  
+        </div>        
+        <div class="area_texto">
+            <div class="texto_form">
+                <label form="texto_label">Mensaje Encriptado</label>
+                <textarea class="textarea_form" placeholder="Mensaje Encriptado" id="campoEncriptado"></textarea>
+            </div>
+            <div class="texto_copiar"><button type="button"onclick="copiar()" class="boton_copiar">Copiar</button>
+            </div>            
+        </div>
+    </main>
+    <main class="footer">
+        <h6 class="footer_parrafo">Estudios Cursados en Alura Latam. Alura es el brazo online de Caelum, una reconocida escuela de tecnología e innovación en Brasil.<a  href="https://www.aluracursos.com/">Visitar Alura Latam</a>
+        </h6>
+        <h6 class="footer_parrafo">Ejercicio de encriptación usando codificación Base64</h6>
+        <h6 class="footer_parrafo">GitHub https://github.com/andresraulvaras/Re-Pro</h6>
+    </main>
+
+    <script src="cripto.js"></script>
+</body>
+</html>
