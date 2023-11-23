@@ -166,6 +166,10 @@
     color:var(--color_label)
 }
 .textarea_form{    
+    border-color: var(--color_border);
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-width: 0.2rem;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -329,7 +333,7 @@
     }
     .footer{
         margin-top: auto;
-        height: 14rem;
+        height: auto;
         padding: 0rem 1rem;       
     }
     .area_form label{
