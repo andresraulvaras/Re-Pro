@@ -288,7 +288,7 @@
     }
     .footer{
         margin-top: auto;
-        height: 8rem;
+        height: auto;
         padding: 0rem 1rem;
     }
 }
@@ -307,7 +307,7 @@
     }
     .footer{
         margin-top: auto;
-        height: 9rem;
+        height: auto;
         padding: 0rem 1rem;
     }
     .area_form label{
