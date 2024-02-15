@@ -32,6 +32,7 @@
 	--clr_container:#212121;
 	--clr_footer:#bdbdbd;
 	--clr_parrafoFooter:#272727;
+	--clr_fuente:#212121;
 }
 
 .body{	
@@ -57,9 +58,9 @@
 	font-size: 2rem;
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	color: var(--clr_titulo);
-	text-align: center;	
+	justify-content: center;		
+	text-align: center;		
+	color:var(#1f2124);
 }
 
 .header__refran{
