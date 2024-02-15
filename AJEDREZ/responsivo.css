@@ -1,0 +1,417 @@
+
+/*Esta página corresponde a la parte de responsividad aplicados a la página */
+
+
+
+
+
+@media screen and ( max-width: 960px){
+	
+	.header__titulo{
+		font-size: 1.5rem;		
+	}
+	.header__refran{
+		font-size: 0.9rem;		
+        width: 90%;
+	}
+	.imgPrincipal{
+		width: 65%;
+		height: 10rem;
+	}
+	.principal__titulo{
+		font-size: 1.2rem;
+	}
+	.principal__tituloH3{
+		font-size: 1rem;		
+	}
+	.imgInicial{
+		width: 15rem;
+		height: 15rem;
+	}
+	.seccion{
+		font-size: 1rem;
+	}
+	.titulo__peon{
+		font-size: 1.2rem;
+	}
+	.imgPeon{
+		width: 15rem;
+		height: 15rem;		
+	}
+	.titulo__reyna{
+		font-size: 1.2rem;
+	}
+	.imgReyna{
+		width: 15rem;
+		height: 15rem;
+	}
+	.titulo__caballo{
+		font-size: 1.2rem;
+	}
+	.imgCaballo{
+		width: 15rem;
+		height: 15rem;
+	}
+	.titulo__alfil {
+		font-size: 1.2rem;
+	}
+	.imgAlfil{
+		width: 15rem;
+		height: 15rem;
+	}
+	.titulo__torre{
+		font-size: 1.2rem;
+	}
+	.imgTorre{
+		width: 15rem;
+		height: 15rem;
+	}
+	.titulo__rey{
+		font-size: 1.2rem;
+	}
+	.imgRey{
+		width: 15rem;
+		height: 15rem;
+	}
+	.seccion__nav{
+		display: block;
+	}
+
+	.titulo__juego{
+		font-size: 1rem;
+	}
+	.parrafo__juego{
+		max-width: 75%;
+	}
+	
+	.grid__item-1{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}	
+	.div__titulo{
+		width: 60%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.noticias{
+		/*font-size: 0.7rem;
+		border: 1px solid var(--clr_borderJugar);
+		font-weight: 300;*/
+	}
+	.div__listas{
+		width: 50%;
+	}
+	.href{
+		/*border: 1px solid var(--clr_borderJugar);*/
+	}
+	.grid__item-2{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.grid__item-4{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		height: auto;
+	}
+	.grid__img{
+		width:18rem;
+		height:11rem;
+	}
+	.grid__img:hover{
+		transform: scale(1.03);
+	}
+	.container{
+		display: flex;		
+		align-items: self-start;
+	}
+	.image{		
+		width: 23rem;
+		height: 12rem;
+	}
+	.div__footer{
+		display: grid;
+		grid-template-columns: repeat(2,49.9%);
+		grid-template-rows: repeat(2,49.9%);
+		gap: 3px;	
+		height: auto;	
+	}
+	.footer__cont:first-child{
+		width: 100%;
+		height:25rem;
+	}
+	.footer__cont:nth-child(2){
+		width: 100%;
+		height: 25rem;
+	}
+	.footer__cont:nth-child(3){
+		width: 100%;
+		height: 25rem;
+	}
+	.footer__cont:nth-child(4){
+		width: 100%;
+		height:25rem;
+	}
+	.footer__parrafo{
+		font-size: 1rem;		
+		padding: 0 0.5rem;
+	}
+	.footer a{
+		padding: 0rem 0.5rem;
+	}
+
+}
+@media screen and ( max-width: 760px){
+	.header__titulo{
+		font-size: 1.2rem;
+	}
+	.header__refran{
+		width: 100%;		
+	}
+	.imgPrincipal{
+		width: 100%;
+	}
+	.principal__titulo{
+		font-size: 1rem;
+	}
+	.imgInicial{
+		width: 12rem;
+		height: 12rem;
+	}
+	.seccion{
+		line-height: 1.2rem;
+		font-size: 0.9rem;
+		font-weight: 200;
+	}
+	.titulo__peon{
+		font-size: 1rem;
+	}
+	.imgPeon{
+		width: 12rem;
+		height: 12rem;
+	}
+	.titulo__reyna{
+		font-size: 1rem;
+	}
+	.imgReyna{
+		width: 12rem;
+		height: 12rem;
+	}
+	.titulo__caballo{
+		font-size: 1rem;
+	}
+	.imgCaballo{
+		width: 12rem;
+		height: 12rem;
+	}
+	.titulo__alfil{
+		font-size: 1rem;
+	}
+	.imgAlfil{
+		width: 12rem;
+		height: 12rem;
+	}
+	.titulo__torre{
+		font-size: 1rem;
+	}
+	.imgTorre{
+		width: 12rem;
+		height: 12rem;
+	}
+	.titulo__rey{
+		font-size: 1rem;
+	}
+	.imgRey{
+		width: 12rem;
+		height: 12rem;
+	}
+	.video{
+		width: 500px;
+		height:350px;
+	}
+	.footer__parrafo{
+		margin: 0 0.5rem;
+	}
+}
+
+@media screen and ( max-width: 540px){
+	.header__titulo{
+		font-size: 0.9rem;
+	}
+	.header__refran{
+		font-size: 0.7rem;
+		font-weight: 200;
+	}
+	.imgPrincipal{
+		width: 100%;
+		height: 7rem;
+	}
+	.principal__titulo{
+		font-size: 0.9rem;
+		margin: 0.5rem 0.2rem;
+	}
+	.principal__tituloH3{
+		font-size: 0.9rem;
+		margin: 1rem 0.2rem;
+	}
+	.imgInicial{
+		width: 8rem;
+		height: 8rem;
+	}
+	.seccion{
+		font-size: 0.7rem;
+	}
+	.titulo__peon{
+		font-size: 0.9em;
+		display: flex;
+		align-items: flex-start;
+		margin: 0.5rem 0.2rem;
+	}	
+	
+	.imgPeon{
+		width: 8rem;
+		height: 8rem;
+	}
+	.titulo__reyna{
+		font-size: 0.9em;
+		display: flex;
+		align-items: flex-start;
+		margin: 0.5rem 0.2rem;
+	}
+	.imgReyna{
+		width: 8rem;
+		height: 8rem;
+	}
+	.titulo__caballo{
+		font-size: 0.9rem;
+		display: flex;
+		align-items: flex-start;
+		margin: 0.5rem 0.2rem;
+	}
+	.imgCaballo{
+		width: 8rem;
+		height: 8rem;
+	}
+	.titulo__alfil{
+		font-size: 0.9rem;
+		display: flex;
+		align-items: flex-start;
+		margin: 0.5rem 0.2rem;
+	}
+	.imgAlfil{
+		width: 8rem;
+		height: 8rem;
+	}
+	.titulo__torre{
+		font-size: 0.9rem;
+		display: flex;
+		align-items: flex-start;
+		margin: 0.5rem 0.2rem;
+	}
+	.imgTorre{
+		width: 8rem;
+		height: 8rem;
+	}
+	.titulo__rey{
+		font-size: 0.9rem;
+		display: flex;
+		align-items: flex-start;
+		margin: 0.5rem 0.2rem;
+	}
+	.imgRey{
+		width: 8rem;
+		height: 8rem;
+	}
+	.titulo__juego{
+		font-size: 0.9rem;
+		max-width: 100%;
+	}
+	.parrafo__juego{
+		max-width: 95%;
+	}
+	.div__titulo{
+		width: 95%;
+	}
+	.div__listas{
+		width: 80%;
+	}
+	.image{
+		width: 15rem;
+		height: 9rem;
+	}
+	.grid__img{
+		width: 15rem;
+		height: 8rem;
+	}
+	.container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.video{
+		width: 390px;
+		height: 240px;
+	}
+	.footer__cont:first-child{
+		width: 100%;
+		height:35rem;
+	}
+	.footer__cont:nth-child(2){
+		width: 100%;
+		height:35rem;
+	}
+	.footer__cont:nth-child(3){
+		width: 100%;
+		height: 30rem;
+		overflow: hidden;
+	}
+	.footer__cont:nth-child(4){
+		width: 100%;
+		height:30rem;
+	}
+	
+}
+@media screen and ( max-width: 365px){
+	
+	.navegar__titulo{
+		font-size: 0.9rem;
+	}
+	.navegar__parrafo{
+		max-width: 95%;
+	}
+	.footer{
+		width: 100%;
+		height: 70rem;
+	}
+	.footer__cont{
+		/*width: 100%;
+		height: 60rem;*/
+	}
+	.div__footer{
+		display: grid;
+		grid-template-columns: repeat(1,auto);	
+		grid-template-rows: repeat(4,auto);
+		height: 30rem;	
+	}
+	.footer__cont:first-child{
+		width: 100%;
+		height: 20rem;
+	}
+	.footer__cont:nth-child(2){
+		width: 100%;
+		height: 20rem;
+	}
+	.footer__cont:nth-child(3){
+		width: 100%;
+		height: 15rem;		
+		overflow: hidden;
+	}
+	.footer__cont:nth-child(4){
+		width: 100%;
+		height: 15rem;
+	}
+}

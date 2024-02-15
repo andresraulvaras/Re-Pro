@@ -1,0 +1,262 @@
+
+/* A partir de la línea 259.En el archivo stylepage.css corresponde a los estilos de la página que corresponde desde el título " Sección Juegos y Páginas de Noticias hasta el pie de página. Hasta el final de la página web
+*/
+
+.seccion__navegar{
+	max-width: 100%;	
+	display: flex;
+	align-items: center;	
+	flex-direction: column;	
+	line-height: 1.2rem;	
+	background-color:var(--clr_divNavegar);
+
+}
+.navegar__titulo{	
+	font-size:1.3rem;
+	margin: 1.5rem 0rem;
+	text-transform: uppercase;
+	max-width: 100%;	
+	color:var(--clr_tituloLetra);
+}
+.navegar__parrafo{	
+	max-width: 60%;
+	text-align: center;	
+	font-size: 1rem;
+	margin: 0rem 0rem 1.5rem;
+	color:var(--clr_tituloLetra);
+	
+}
+.seccion__nav{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-auto-rows: 20rem;
+	gap: 0.5rem;
+	background-color: var(--clr_navegar);			
+}
+
+.grid__item-1{	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	border: 3px solid var(--clr_borderGrid);
+	padding: 0.7rem;
+	background-color: var(--clr_gridItem);	
+}
+.div__titulo{
+	width: 100%;
+	height: 30%;
+}
+.div__listas{
+	width: 100%;
+	height: 70%;
+}
+.grid__item-2{	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	border: 3px solid var(--clr_borderGrid);
+	background-color: var(--clr_gridItem);
+	padding: 0.7rem;
+}
+
+.grid__item-3{	
+	grid-column-start: 3;
+	grid-column-end: 4;
+	border: 3px solid var(--clr_borderGrid);
+	background-color: var(--clr_gridItem);	
+	padding: 0.7rem;
+}
+.gallery{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.image{
+	border: 4px solid #212121;
+	width: 23rem;
+	height: 14rem;
+}
+.seccion__navTitulo{	
+	width: 99%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+	font-weight: bold;
+	border: 3px solid var(--clr_borderJugar);
+	border-radius: 5px;
+	color:var(--clr_tituloLetra);	
+}
+.href{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border:3px solid var(--clr_borderJugar);
+	border-radius: 5px;
+	width: 85%;
+	margin: 0.5rem;	
+	color: var(--clr_tituloLetra);
+	transition: 3s all;
+}
+.href:hover{
+	transform: scale(1.05);
+	color: var(--clr_hoverClr);
+	background-color: var(--clr_href);
+}
+ul{
+	padding: 0;
+	list-style-type: none;
+}
+.paginas{	
+	font-size: 1rem;
+}
+.grid__item-4{	
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	border: 3px solid var(--clr_borderGrid);
+	display: flex;	
+	align-items: center;
+	justify-content:space-around;			
+	padding: 0.7rem;
+}	
+.grid__img{
+	width: 17rem;
+	height:12rem;
+	transition: 0.2s ease-in-out;
+	box-shadow: 0.5rem 0.5rem 0.5rem #212121;
+}
+.grid__img:hover{
+	transform: scale(1.03);
+}
+.container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	background-color: var(--clr_container);	
+	
+}
+.contenedor {
+	
+	width: 15rem;
+	border: 3px solid #ccc;
+	cursor: pointer;
+	padding: 3px;
+	margin: 3px;
+}
+
+.contenido-adicional {
+	display: none;	
+	padding: 10px;
+	border: 1px solid #ddd;
+	background-color: #f9f9f9;	
+}
+.contenedor__titulo{
+	background-color: var(--clr_navegar);
+	font-size: 0.9rem;
+	font-weight: 100;
+}
+.video__container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 30rem;
+	background-color:var(--clr_container);
+}
+.footer{
+	background-color:var(--clr_footer);
+	
+}
+.div__footer{
+	display: grid;
+	grid-template-columns: repeat(4, 24.8%);	
+	grid-template-rows: repeat(1, 24.8%);
+	height: 40rem;
+	
+}
+.footer__cont:first-child{
+	width:100%;
+	height: 30rem;		
+}
+.footer__titulo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--clr_footerParrafo);
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin: 1.5rem;
+}
+
+.footer__parrafo{
+	display: flex;	
+	justify-content: flex-start;
+	color: var(--clr_footerParrafo);	
+	padding: 0rem 2rem;	
+}
+
+.footer__parrafo::before {	
+	content: "❋";	
+	padding-right: 0.3rem;
+	color: mediumblue;	
+}
+
+.footer a{				
+	color:mediumblue;
+	text-decoration: none;
+	word-wrap: break-word;
+    width: 99.5%;
+    display: inline-block;
+	padding: 0 2rem;
+}
+.div__btn{
+	
+	width: 100%;
+	height: 5rem;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2.5rem;
+	
+}
+.scrollToTopBtn{
+	width: 8rem;
+	height: 2.5rem;
+	background-color:white;
+	color: black;
+	font-weight: 700;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px #454546;
+	transition: 2s;
+}
+.scrollToTopBtn:hover{
+	background-color: #34f334;
+}
+
+.footer__cont:nth-child(2){
+	width: 100%;		
+	height: 30rem;	
+}
+
+.footer__cont:nth-child(3){
+	width: 100%;	
+	height: 30rem;	
+}
+
+.footer__cont:nth-child(4){
+	width: 100%;
+	height: 30rem;	
+}

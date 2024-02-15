@@ -1,283 +1,338 @@
 
-.cuerpo{
+
+/* Corresponde desde línea 1 hasta línea 258.En el archivo styleajedrez.css corresponde a los estilos de la página que corresponde desde el inicio del archivo index.html hasta el elemento "principal__seccion" que termina el área que explica los movimientos de las piezas del juego
+*/
+
+
+:root{	
+
+	--letra_fuente:'Noto Serif Georgian', serif;
+	--porcentaje_one:30%;
+	--porcentaje_two:70%;
+	--clr_body_one:#212121;
+	--clr_body_two:#9fa3a9;
+	--clr_titulo:#1f2124;
+	--clr_refran:#1f2124;
+	--clr_box:#1f2124;
+	--clr_basico:#1f2124;
+	--clr_border:#9fa3a9;
+	--clr_inicial:#fe0000;
+	--clr_cuerpo_one:#8dcfec;
+	--clr_cuerpo_two:#58afdd;
+	--clr_navegar:#f4eee1;
+	--clr_divNavegar:#f4eee1;
+	--clr_divItem:#f4eee1;
+	--clr_borderGrid:#9fa3a9;
+	--clr_gridItem:#f4e6c9;
+	--clr_borderJugar:#212121;
+	--clr_tituloLetra:#212121;
+	--clr_hoverClr:#c20000;
+	--clr_before:#58afdd;
+	--clr_href:#b4ff9a;
+	--clr_container:#212121;
+	--clr_footer:#bdbdbd;
+	--clr_parrafoFooter:#272727;
+}
+
+.body{	
 	
-	background:linear-gradient(#FFE082, #FF8F00);
-	font-family: 'Noto Serif Georgian', serif;
+	margin: 0px;
+	padding: 0px;
+	background:linear-gradient(to bottom,var(--clr_body_one) var(--porcentaje_one),var(--clr_body_two) var(--porcentaje_two));
+	font-family: var(--letra_fuente);
+		
+}
+.header{	
+	width: 65%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	display: flex;		
+	background:linear-gradient(to bottom,var(--clr_cuerpo_one) var(--porcentaje_one),var(--clr_cuerpo_two) var(--porcentaje_two));
 }
 
+.header__titulo{
+	width: 100%;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--clr_titulo);
+	text-align: center;	
+}
 
-.titulo{
-	font-size: 60px;
-	color: red;
+.header__refran{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.3rem;
+	color:var(--clr_refran);
+	text-align: center;	
+}
+
+.imgPrincipal{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 65%;	
+	height: 15rem;	
+    box-shadow: -5px 5px 20px var(--clr_box);
+}
+
+.principal{
+	width: 65%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	display: flex;
+}
+.primera__parte{
+	width: 100%;
+	background:linear-gradient(to bottom,var(--clr_cuerpo_one) var(--porcentaje_one),var(--clr_cuerpo_two) var(--porcentaje_two));
+}
+.principal__titulo{	
+	font-size: 1.8rem;
+	color: var(--clr_basico);
+	display: flex;
 	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	transition: 1s all;
-}
-.refran{
-	font-size: 30px;
-	color: black;
+	justify-content: center;	
+	border: 3px solid var(--clr_border);
+	border-radius: 2px;
+	margin: 1.5rem;
+	}
+
+.principal__tituloH3{	
+	display: flex;
 	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	justify-content:left;
+	font-size: 1.6rem;
+	margin: 1.5rem;
 }
-
-.imagenPrincipal{
-	width: 940px;
-	height: 400px;
-	margin-left: 300px;
-    box-shadow: -5px 5px 20px black;
-	transition: 1s all;
-
-}
-.imagenPrincipal:hover{
-	transform: scale(1.1);
-
-}
-
-.ubicacion{
-	font-size: 40px;
-	color: black;
-	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	transition: 1s all;
-
-}
-.ubicacion:hover{
-	color: #2196F3;
-	font-size: 50px;
-}
-.titulosH2{
-	text-align: center;
-	font-size: 40px;
-}
-.titulosH3{
-	text-align: center;
-	font-size: 40px;
-}
-.titulosH3:before{
-	content: "♟";
+.principal__seccion{
+	
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background:linear-gradient(to bottom,var(--clr_cuerpo_one) var(--porcentaje_one),var(--clr_cuerpo_two) var(--porcentaje_two));
 }
 
 .seccion{
-	font-size: 20px;
-	font-weight: bold;	
-	margin-right: 200px;
-	margin-left: 170px;
-}
-.imagenInicial{
-	width: 300px;
-	height: 300px;
-	margin-left: 150px;
-	float: left;
-	padding: 20px;
-	box-shadow: -5px 5px 10px black;
-	transition: 1s all;
+	width: 85%;	
+	font-size: 1.2rem;
+	font-weight:500;	
+	text-align: justify;
+	text-indent: 15%;
+	margin: 0.3rem;
+	line-height: 1.5rem;
 }
 
-.imagenInicial:hover{
-	transform: scale(1.1);
-}
-.division-2{
-	margin-top: 100px;
+.imgInicial{
+	width: 20rem;
+	height: 20rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;		
+	padding: 0.9rem;
+	box-shadow: -5px 5px 10px black;
+	transition: 3s all;
 }
 
-.imagenPeon{
-	width: 300px;
-	height: 300px;
-	margin-left: 150px;
-	float: left;
-	padding: 20px;
+.imgInicial:hover{
+	transform: scale(1.05);
+}
+.inicial{	
+	color: var(--clr_inicial);	
+}
+.titulo__peon{
+	width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content:left;
+	font-size: 1.6rem;
+			
+}
+.titulo__peon:before{
+	content: "♟";
+	width: 3rem;
+	border: 3px solid var(--clr_before);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.imgPeon{
+	width: 20rem;
+	height: 20rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;		
+	padding: 0.9rem;
 	box-shadow: -5px 5px 10px black;
-	transition: 1s all;
+	transition: 3s all;
 }
-.imagenPeon:hover{
-	transform: scale(1.1);
+.imgPeon:hover{
+	transform: scale(1.05);
 }
-.division-3{
-	margin-top: 100px;
-}
-.reynas{	
+
+.titulo__reyna{	
+	width: 95%;
+	display: flex;
 	text-align: center;
-	font-size: 40px;
+	justify-content: left;
+	font-size: 1.6rem;
+	
 }
-.reynas::before{
+.titulo__reyna::before{
 	content: "♛";
+	width: 3rem;
+	border: 3px solid var(--clr_before);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
-.imagenReyna{
-	width: 300px;
-	height: 300px;
-	margin-left: 150px;
-	float: left;	
-	padding: 20px;
+.imgReyna{
+	width: 20rem;
+	height: 20rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;		
+	padding: 0.9rem;
 	box-shadow: -5px 5px 10px black;
-	transition: 1s all;
+	transition: 3s all;
 }
 
-.imagenReyna:hover{
-	transform: scale(1.1);
+.imgReyna:hover{
+	transform: scale(1.05);
 }
-.division-4{
-	margin-top: 100px;
-}
-.caballos{
+
+.titulo__caballo{
+	width: 95%;
+	display: flex;
 	text-align: center;
-	font-size: 40px;	
+	justify-content: left;
+	font-size: 1.6rem;
+	
 }
-.caballos:before{
+.titulo__caballo:before{
 	content: "♞";
+	width: 3rem;
+	border: 3px solid var(--clr_before);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-.imagenCaballo{
-	width: 300px;
-	height: 300px;
-	margin-left: 150px;
-	float: left;	
-	padding: 20px;
+.imgCaballo{
+	width: 20rem;
+	height: 20rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;		
+	padding: 0.9rem;
 	box-shadow: -5px 5px 10px black;
-	transition: 1s all;
+	transition: 3s all;
 }
-.imagenCaballo:hover{
-	transform: scale(1.1);
+.imgCaballo:hover{
+	transform: scale(1.05);
 }
-
-.division-5{
-	margin-top: 100px;
-}
-
-.alfiles{
+.titulo__alfil{
+	width: 95%;
+	display: flex;
 	text-align: center;
-	font-size: 40px;	
+	justify-content: left;
+	font-size: 1.6rem;
+	
 }
-.alfiles:before{
+.titulo__alfil:before{
 	content: "♝";
+	width: 3rem;
+	border: 3px solid var(--clr_before);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
-.imagenAlfil{
-	width: 300px;
-	height: 300px;
-	margin-left: 150px;	
-	float: left;	
-	padding: 20px;
+.imgAlfil{
+	width: 20rem;
+	height: 20rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;		
+	padding: 0.9rem;
 	box-shadow: -5px 5px 10px black;
-	transition: 1s all;	
+	transition: 3s all;
 }
 
-.imagenAlfil:hover{
-	transform: scale(1.1);
+.imgAlfil:hover{
+	transform: scale(1.05);
 }
-.division-6{
-	margin-top: 100px;
-}
-
-.torres{
+.titulo__torre{
+	width: 95%;
+	display: flex;
 	text-align: center;
-	font-size: 40px;
+	justify-content: left;
+	font-size: 1.6rem;
+	
 }
-.torres::before{
+.titulo__torre::before{
 	content: "♜";
+	width: 3rem;
+	border: 3px solid var(--clr_before);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.imagenTorre{
-	width: 300px;
-	height: 300px;
-	margin-left: 150px;
-	float: left;	
-	padding: 20px;
-	box-shadow: -5px 5px 10px black;	
-	transition: 1s all;
+.imgTorre{
+	width: 20rem;
+	height: 20rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;		
+	padding: 0.9rem;
+	box-shadow: -5px 5px 10px black;
+	transition: 3s all;
 }
-.imagenTorre:hover{
-	transform: scale(1.1);
-}
-.division-7{
-	margin-top: 100px;
-}
+.imgTorre:hover{
+	transform: scale(1.05);
 
-.reyes{
+}
+.titulo__rey{
+	width: 95%;
+	display: flex;
 	text-align: center;
-	font-size: 40px;
+	justify-content: left;
+	font-size: 1.6rem;
+	
 }
-.reyes::before{
+.titulo__rey::before{
 	content: "♚";
+	width: 3rem;
+	border: 3px solid var(--clr_before);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.imagenRey{
-	display: inline;
-	width: 300px;
-	height: 300px;
-	margin-left: 150px;
-	padding: 20px;
-	box-shadow: -5px 5px 5px 5px black;
-	transition: 1s all;
+.imgRey{
+	width: 20rem;
+	height: 20rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;		
+	padding: 0.9rem;
+	box-shadow: -5px 5px 10px black;
+	transition: 3s all;
 }
-.imagenRey:hover{
-	transform: scale(1.1);
-}
-.seccion-2{
-	font-size: 20px;
-	font-weight: bold;
-	margin-left: 170px;	
-	margin-right: 200px;
-}
-.navegar{
-	background-color: #FFE082;
-	width: 100%;
-	
-}
-
-.juegosH3{
-	text-align: center;
-	font-size: 40px;
-	margin-top: 50px;
-	padding-top: 50px;
-}
-
-.parrafoH3 {
-	text-align: center;
-	font-size: 20px;
-	margin-left: 100px;
-	margin-right: 100px;
-}
-.liches{	
-	text-align: center;
-	font-size: 20px;
-	color: black;
-	transition: 1s;		
-}
-.liches:hover{
-	transform: scale(1.2);
-}
-.noticias{
-	font-size: 24px;
-	font-weight: bold;
-	margin-left: 100px;
-	margin-right: 100px;
-}
-.paginas{
-	font-size: 20px;
-	margin-left: 100px;
-	margin-right: 100px;
-}
-.video{
-	margin-left: 300px;
-	width: 940px;
-}
-
-.piedePagina{
-	box-sizing: border-box;
-	border-color: black;
-	border-width: 2px;
-	border-style: solid;
-	box-shadow: 10px 10px 10px black;
-	margin: 30px ;
-	text-align: center;
-	background-color: darkorange;
-}
-.piedePagina p::before {
-content: "❋";
-}
-@media sreen and (max-width: 480px){
-	
+.imgRey:hover{
+	transform: scale(1.05);
 }
