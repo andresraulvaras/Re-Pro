@@ -396,9 +396,14 @@
 	
 	.navegar__titulo{
 		font-size: 0.9rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
 	}
 	.navegar__parrafo{
 		max-width: 95%;
+		font-size: 0.7rem;
 	}
 	.footer{
 		width: 100%;
