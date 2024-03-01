@@ -333,11 +333,11 @@
 		width: 8rem;
 		height: 8rem;
 	}
-	.titulo__juego{
+	.navegar__titulo{
 		font-size: 0.9rem;
 		max-width: 100%;
 	}
-	.parrafo__juego{
+	.navegar__parrafo{
 		max-width: 95%;
 	}
 	.div__titulo{

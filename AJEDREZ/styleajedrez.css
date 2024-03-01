@@ -41,6 +41,7 @@
 	padding: 0px;
 	background:linear-gradient(to bottom,var(--clr_body_one) var(--porcentaje_one),var(--clr_body_two) var(--porcentaje_two));
 	font-family: var(--letra_fuente);
+	
 		
 }
 .header{	
@@ -79,6 +80,7 @@
 	width: 65%;	
 	height: 15rem;	
     box-shadow: -5px 5px 20px var(--clr_box);
+	
 }
 
 .principal{
