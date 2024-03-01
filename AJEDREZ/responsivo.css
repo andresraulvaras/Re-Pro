@@ -334,11 +334,17 @@
 		height: 8rem;
 	}
 	.navegar__titulo{
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		font-size: 0.9rem;
-		max-width: 100%;
+		width: 100%;
+		height: 2rem;
+		margin: 0.8rem 0rem;
 	}
 	.navegar__parrafo{
 		max-width: 95%;
+		font-size: 0.7rem;
 	}
 	.div__titulo{
 		width: 95%;
