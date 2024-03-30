@@ -1,0 +1,239 @@
+
+
+/* El archivo mediumHigh.css corresponde a la primera media parte del archivo index.html, hasta la línea 158 del archivo index.html*/
+
+:root{
+    --background_color: #aed6f1; 
+    --clr_page_ref:#0404e2;
+    --clr_btn:#0404e2;
+    --clr_border:#222222;
+    --clr_formulario: #454546;
+    --clr_borderBTN:#cccccc;
+    --clr_borderReceta:#222222;
+    --clr_borderTitulo:#222222;
+    --clr_footer:#06296b;
+    --clr_link:greenyellow;
+    --letra_titulo: "Hahmlet", serif;
+    --letra_fuente:'Mali', cursive;   
+    --clr_fuente:#212121;    
+    --clr_borderBOX:#33312f;    
+    --clr_parrafo:#f5f5f5;    
+    --clr_marco:#969696;
+    --clr_icono: #1b5e20;
+}
+.cuerpo{
+   margin: 0px;
+   padding: 0px;
+   background-color:var(--background_color); 
+}
+.encabezado{
+    width: 100%;
+    height:25rem;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tituloH1{
+    font-family: var(--letra_titulo);
+    color: var(--clr_fuente);
+    font-size: 3rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.encabezado_subtitulos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 2rem;
+}
+.encabezado_lista{
+   
+    width: 100%;
+    height: 100%;
+   /* display: flex;          
+    justify-content:center;   */
+    margin: 0% 2%;       
+    padding: 0%;
+}
+.lista_parrafo{
+    color: var(--color_fuente);
+    font-size: 1.2rem;
+    margin: 0px;    
+    text-align: justify;
+    text-indent: 5rem;
+}
+.page_ref{
+    color:var(--clr_page_ref);
+}
+.fa-check-circle{
+    
+    color:var(--clr_icono);
+    font-size: 1rem;
+    padding: 3px;
+}    
+.img_intro{
+           
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    gap: 2px;
+    width: 100%;   
+    list-style-type: none;
+    padding: 0%;    
+    height: 20rem;
+    margin: 0% 0% 3% 0%;
+}
+.ul_lista{
+    list-style-type: none;
+    height: 100%;
+    margin: 0%;
+}
+.area_izquierda{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;    
+    height: 20rem;
+   
+}
+.item_lista{
+    font-size: 1.5rem;
+    color: var(--clr_fuente);
+    margin-bottom: 1rem;
+}
+.fa-check-circle{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.area_centro{
+    width: 100%;    
+    height: 20rem; 
+    
+}
+.area_img{
+    width: 100%;
+    height: 100%;
+}
+
+.imagen-0{
+    width: 100%;
+    height: 100%;
+}
+.area_derecha{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;    
+    height: 20rem;
+    list-style-type: none;
+}
+.area_titulo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5rem;
+    margin: 0px;
+    padding: 0px;
+}
+.titulo_principal{
+
+    font-size: 3rem;
+    display: flex;   
+    align-items: center; 
+    justify-content: center;
+    width: 100%;    
+    margin: 0%;
+}
+.seccion_parrafo{
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;   
+    width: 100%;
+    height: 30rem;
+    margin: 0% 0% 3% 0%;
+}
+.area_mapa{
+   
+    width: 30%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    border: var(--clr_border) 2px solid;    
+}
+.mapa{
+
+    width: 100%;
+    height: 100%;
+}
+.area_parrafo{
+
+    width: 69.5%;   
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+    margin: 0%;
+}
+.parrafo-1{    
+
+    font-size: 1.3rem;          
+    color:var(--clr_fuente);           
+    text-align:justify;
+    margin:0rem 0.5rem 1rem 0.5rem;
+    text-indent: 10%;
+}
+.area_galeria{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 14rem;
+}
+.formulario{   
+
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    width: 100%;   
+    text-align: center;   
+    background-color: var(--clr_formulario);
+}
+.btn_anterior{
+   
+    color: var(--clr_btn);
+    border:var(--clr_borderBTN) 2px solid;
+    border-radius: 2px;
+    
+}
+.btn_posterior{
+    color: var(--clr_btn);
+    border: var(--clr_borderBTN) 2px solid;
+    border-radius: 2px;
+    
+}
+.imagen-1{
+
+    width:25rem;
+    height:12.5rem;
+    box-sizing: border-box;
+    border-width: 4px;
+    border-style: solid;
+    border-color: var(--clr_marco);
+    padding: 0.5rem;
+    margin: 0% 3em;
+}
+
+
+
+

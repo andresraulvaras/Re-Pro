@@ -1,0 +1,373 @@
+
+/* El archivo responsive.css corresponde a la parte responsiva de la página*/ 
+
+@media screen and (max-width: 960px){
+
+    
+    .encabezado{
+        height: auto;
+    }
+    .tituloH1{
+        font-size: 2rem;
+    }
+    .encabezado_titulo{
+        width: 100%;
+        height: 6em;
+    }
+    .encabezado_subtitulos{
+        margin: 0em 1em;
+        height: 26em;
+    }
+    .img_intro{
+        display: flex;
+        flex-direction: column;
+        height: 26em;
+    }
+    .ul_lista{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;           
+    }
+    .item_lista{
+        width: 25%;
+        font-size: 1.4em;
+    }
+    .fa-check-circle{
+        margin-right: 0.5em;
+    }
+    .area_img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 15em;
+    }
+    .imagen-0{
+        width: 70%;
+        height: 14em;
+    }
+    .titulo_general{
+        height: 5em;
+        width: 100%;
+    }
+    .area_titulo{
+       
+    }
+    .titulo_principal{
+       
+    }
+    .seccion_parrafo{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 50em;
+    }
+    .area_mapa{
+
+        width: 100%;
+        height: 20em;
+    }
+    .mapa{
+        width: 50%;
+        height: 100%;
+    }
+    .area_parrafo{
+        width: 100%;
+        height: 32em;
+        margin: 0% 2%;
+    }
+    .area_galeria{
+        
+        width: 100%;
+        height: 15em;       
+    }
+    .formulario{
+        width: 100%;
+        height: 15em;
+    }
+    .seccion_receta{
+        width: 100%;
+        height: 30em;
+    }
+    .parrafo_titulo{
+        font-size: 1em;
+    }
+    .fa-check-square{
+        font-size: 1em;
+    }
+    .ul_items{
+        margin: 12% 0% 0% 0%;
+        padding: 0% 0% 0% 5%;
+    }
+    .item_receta{
+        font-size: 1.1em;
+        margin: 0% 0% 5% 2%;
+    }
+    .titulo_deportes{
+        font-size: 1.5em;
+    }
+    .enunciado{
+        font-size: 2em;
+    }   
+    .box_img{
+        width: 14em;
+        height: 10em;   
+        overflow: hidden;     
+    }
+    .box_parrafo{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 769px){
+    
+    .encabezado_subtitulos{
+        width: 100%;
+    }
+    .encabezado_lista{
+        height: 25em;       
+    }
+    .lista_parrafo{       
+        font-size: 1em;
+        width: 100%;        
+        height: 25em;
+    }
+    .item_lista{
+        font-size: 1.1em;
+        width: 30%;
+    }
+    .imagen-0{
+        width: 90%;
+    }
+    .fa-check-circle::before{
+        
+        margin-right: 2px;     
+    }
+    .titulo_principal{
+        font-size: 2.5rem;
+    }
+    .area_parrafo{
+
+    }
+    .parrafo-1{
+        font-size: 1em;
+    }
+    .area_galeria{
+        margin-top: 2.5em;
+        height: 13em;        
+    }
+    .formulario{        
+        height: 12em;
+    }
+    .imagen-1{
+        width: 20rem;
+        height: 10rem;
+        border: #969696 2px solid;
+        margin: 0% 1.5%;
+    }
+    .seccion_receta{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .area_receta{
+        width: 100%;
+        height: 20em;
+    }
+    .parrafo_titulo{
+        font-size: 1.1em;
+    }
+    .ul_items{
+        margin: 1% 0% 0% 0%;
+    }
+    .area_info{
+        width: 100%;
+        height: 30em;
+    }
+    .info_listado{
+        
+    }
+    .info_img{
+        width: 15em;
+        height: 9em;
+    }
+    .enunciado{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5em;
+        width: 100%;
+        height: 1.5em;
+    }    
+    .box_01{
+        display: flex;
+        flex-direction: column;
+    }
+    .box_image{        
+        width: 100%;
+        height: 12em;
+        margin-bottom: 3%;
+    }
+    .box_img{
+        width: 50%;
+        height: 100%;
+    }
+    .box_items{
+        width: 100%;
+        margin: 0% 0.5%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box_parrafo{       
+        width: 95%;
+    }
+    .box_02{
+        display: flex;
+        flex-direction: column;
+    }
+    .box_03{
+        display: flex;
+        flex-direction: column;
+    }
+    .box_04{
+        display: flex;
+        flex-direction: column;
+    }
+    .box_05{
+        display: flex;
+        flex-direction: column;
+    }
+    .box_06{
+        display: flex;
+        flex-direction: column;
+    }
+    .box_07{
+        display: flex;
+        flex-direction: column;
+    }
+    .box_08{
+        display: flex;
+        flex-direction: column;
+    }
+    .box_09{
+        display: flex;
+        flex-direction: column;
+    }
+    .piedePagina{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_conteiner{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        margin: 0% 0% 0% 10%;
+    }
+    .footer_educacional{
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        width: 95%;
+        margin: 0% 0% 0% 10%;
+    }
+    .pagina_parrafo{
+        margin: 2% 1%;
+        width: 95%;
+        padding: 0%;
+    }
+    .edu_pagina_parrafo{
+        margin: 2% 1%;
+        width: 95%;
+        padding: 0%;
+    }
+    .pagina_link{
+        width: 95%;
+        margin: 2% 1%;
+    }    
+}
+@media screen and (max-width: 540px){
+    
+    .encabezado{
+        height: 50rem;  
+    }
+    .encabezado_titulo{
+        height: 5em;
+    }
+    .encabezado_lista{
+        height: 45em;
+    }
+    .encabezado_subtitulos{
+        height: 45rem; 
+        width: 100%;
+        margin: 0%;
+    }
+    .lista_parrafo{       
+        font-size: 1em;
+        line-height: 1.6em;
+        height: 44em;
+    }
+    .ul_lista{
+        padding: 0% 0% 0% 5%;
+    }
+    .item_lista{
+        border: #969696 1px solid;
+        border-radius: 5px;
+    }
+    
+    .fa-check-circle::before{
+        display: none;             
+    }
+    .imagen-0{
+        height: 10em;
+    }
+    .titulo_principal{
+        font-size: 2rem;
+    }
+    .item_lista{
+        display: flex;
+        align-items: center;
+        width: 32%;        
+    }
+    .mapa{
+        width: 95%;
+    }
+    .seccion_parrafo{
+        height: 50em;
+    }
+    .area_parrafo{
+        height: 40em;
+    }    
+    .parrafo-1{
+        font-size: 1em;
+    }
+    .area_galeria{
+        display: none;        
+    }   
+    .seccion_receta{
+        margin-top: 11em;
+    }
+    .area_receta{
+        width: 99%;
+    }
+    .box_img{
+        width: 70%;
+    }
+    .footer_conteiner{
+        width: auto;
+        margin: 0%;
+    }
+    .pagina_parrafo{
+        font-size: 1em;
+    }
+    .footer_educacional{
+        width: auto;
+        margin: 0%;
+    }
+}
+@media screen and (max-width: 365px){
+   
+}
+
