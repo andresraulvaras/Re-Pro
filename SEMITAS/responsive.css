@@ -369,20 +369,29 @@
 }
 @media screen and (max-width: 365px){
    
-    .encabezado{
+    .encabezado{       
+        height: 62em;
+    }
+    .encabezado_subtitulos{        
         height: 56rem;
     }
-    .encabezado_subtitulos{
-        height: 56rem;
-    }
-    .encabezado_lista{
-        height: 50em;
+    .encabezado_lista{       
+        height: 55em;
     }
     .lista_parrafo{
         height: 50em;
     }
     .item_lista{
         font-size: 0.9em;
+    }
+    .area_parrafo{
+        height: 45em;
+    }
+    .area_mapa{
+        height: 15em;
+    }
+    .img_intro{
+        height: 26em;
     }
 }
 
