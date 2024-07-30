@@ -1,0 +1,300 @@
+
+:root{
+
+    --clr__titulo_principal:#f0ffff;
+    --clr__title:#f0ffff;
+    --clr__placeholder:#adff2f;
+    --clr__border-color:#f0ffff;
+    --clr__area_button:#f0ffff;
+    --clr__hover:#ff0000;
+    --clr__card:#f0ffff;
+    --clr__area_input:#f0ffff;
+    --clr__Icon:black;
+}
+  
+ .cuerpo{
+    margin: 0px;
+    padding: 0px;
+ } 
+
+.area_titulo{
+    background-color: transparent;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr__titulo_principal);
+}
+.titulo_principal{
+    /*// <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 400 to 700*/
+    font-size: 2em;
+    margin: 0px;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;   
+}
+.area_main{
+    
+    background:linear-gradient(to right, rgb(0 0 0 /0.5), rgb(0 0 0 /0.5)), url(12804.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;    
+}
+
+.title{
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr__title);
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.area_form{
+   
+   /* background-color: aliceblue;*/
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.area_input{
+
+    width: 25%;
+    height: 3rem;
+    box-sizing: border-box;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: var(--clr__border-color);
+    background-color: transparent;
+    color: var(--clr__area_input);   
+    border-radius: 0.5rem; 
+    font-size: 1em;   
+    padding-left: 2%;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+::placeholder{
+    color:var(--clr__placeholder);
+}
+.area_button{
+    font-size: 1.5rem;
+    color:var(--clr__area_button);
+    background-color: transparent;
+    width: 7rem;
+    height: 3rem;
+    box-sizing: border-box;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: var(--clr__border-color);
+    border-radius: 0.5rem;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.area_listado{
+    width: 100%;
+    height: 85%;
+    max-height: 85%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    /*overflow:scroll;*/
+}
+.area_lista{          
+    width: 40%;
+    height: 80%;    
+}
+.area_nombres{
+    width: 90%;    
+}
+.area_texto{
+       font-size: 1rem;        
+}
+.card_list{ 
+   width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: scroll;
+  max-height: 60vh; 
+}
+.card{
+    height: 3.3em;
+    font-size: 0.6em;    
+    border-radius: 0.5rem;
+    width: 30%;
+    padding: 0.5rem;
+    box-shadow: 2px 4px 4px 4px rgba(71, 71, 71, 0.16);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;  
+    margin: 5px 0px;    
+    background-color: var(--clr__card);
+}
+.task{    
+    font-size: 2.2em;
+    padding: 10px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.fa-check-square-o{    
+    font-size: 15px;
+}  
+.fa-check-square-o:hover{
+    color:var(--clr__hover);
+}
+.fa-trash{
+    font-size: 15px;   
+}
+.fa-trash:hover{
+    color:var(--clr__hover);
+}
+.fa-check-square{
+    font-size: 17px;
+    color: blue;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to bottom, #bbdefb, #f0ffff);
+   /* margin: 0rem 3em;*/
+    /*display: flex;
+    flex-wrap: wrap;*/
+   
+    margin-bottom: 3em;
+}
+.divList{
+   width: auto;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items:baseline;
+   padding: 1em 1em 0em 0em;
+   margin-left: 3em;
+   margin-right: 3em;
+   
+}
+.list{
+    width: 30%;
+    display: flex;
+    align-items: baseline;
+    margin: 1em 1em 0em 0em;
+    /*flex-wrap: wrap;*/
+}
+.fa-hand-o-right{
+    color:var(--clr__Icon);
+}
+.footer_parrafo{
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+    /*padding-top: 0.7em; */
+    margin: 0em 1em 0em 0.5em;
+    overflow: hidden;
+    
+}
+@media screen and (max-width: 960px){        
+    .cuerpo{      
+    }
+    .area_input{
+        width: 30%;
+    }    
+}
+@media screen and (max-width: 740px){
+
+    .titulo_principal{
+        font-size: 1.5em;
+    }
+    .area_input{
+        width: 45%;
+    }
+    .card_list{
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .card{
+        width: 50%;
+    }
+    .divList{
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+}
+@media screen and (max-width: 540px){
+
+    .titulo_principal{
+        font-size: 1em;
+    }
+    .title{
+        font-size: 1em;
+    }
+    .area_form{
+        display: flex;
+        flex-direction: column;
+        height: 8rem;
+    }
+    .area_input{
+        width: 70%;
+    }
+    .area_button{
+        font-size: 1em;
+    }
+    .card{
+        width: 80%;
+    }
+    .task{
+        font-size: 1.7em;
+    }
+    .divList{
+        padding: 1em 0.2em 0em 0em;
+    }
+    .list{
+        width: 49%;
+        margin: 0px;
+        padding: 0em 0em 1em 0em;
+    }
+    .footer_parrafo{
+        margin: 0em 0.2em 0em 0.2em;
+    }
+}
+@media screen and (max-width: 365px) {
+    
+    .titulo_principal{
+        font-size: 0.9em;
+    }
+    .area_input{
+        width: 90%;
+    }
+    .divList{
+        display: flex;
+        flex-direction: column;
+        width: 97%;
+    }
+    .list{
+        width: 97%;
+        margin-bottom: 1em;
+    }
+    .footer_parrafo{
+        width: auto;
+    }
+}

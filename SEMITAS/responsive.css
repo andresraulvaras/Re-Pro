@@ -2,7 +2,6 @@
 /* El archivo responsive.css corresponde a la parte responsiva de la página*/ 
 
 @media screen and (max-width: 960px){
-
     
     .encabezado{
         height: auto;
@@ -369,16 +368,20 @@
 }
 @media screen and (max-width: 365px){
    
-    .encabezado{       
-        height: 62em;
+    .encabezado{   
+        background-color: aliceblue;
+        height: 60em;
     }
-    .encabezado_subtitulos{        
-        height: 56rem;
+    .encabezado_subtitulos{     
+        
+        height: 54rem;
     }
-    .encabezado_lista{       
-        height: 55em;
+    .encabezado_lista{    
+        
+        height: 53em;
     }
     .lista_parrafo{
+        
         height: 50em;
     }
     .item_lista{
